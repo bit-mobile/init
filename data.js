@@ -205,5 +205,5 @@ module.exports = {
 	}, {
 		"topname": "B",
 		data: [1, 2, 3, 6, 9]
-	}];
+	}]
 }

@@ -118,13 +118,6 @@ module.exports = function(fn) {
 
 			starfishData = JSON.parse(starfishData);
 
-			starfishData.user = JSON.parse(starfishData.user);
-			starfishData.peopleList = JSON.parse(starfishData.peopleList);
-			starfishData.leftList = JSON.parse(starfishData.leftList);
-			starfishData.departmentList = JSON.parse(starfishData.departmentList);
-			starfishData.groupList = JSON.parse(starfishData.groupList);
-			starfishData.peopleListSeq = JSON.parse(starfishData.peopleListSeq);
-
 			handle(starfishData);
 		}
 
